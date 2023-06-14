@@ -8,16 +8,27 @@ export default function header()
     const ul = document.createElement('ul');
     ul.classList.add('tabs-list');
 
-    const text = ['Home', 'Menu', 'Contact'];
+    
+    let li = document.createElement('li');
+    li.classList.add('home-tab-event');
+    let a = document.createElement('a');
+    a.textContent = 'Home';
+    li.appendChild(a);
+    ul.appendChild(li);
 
-    for(let i = 0; i < 3; i++)
-    {
-        let li = document.createElement('li');
-        let a = document.createElement('a');
-        a.textContent = text[i];
-        li.appendChild(a);
-        ul.appendChild(li);
-    }
+    li = document.createElement('li');
+    li.classList.add('menu-tab-event');
+    a = document.createElement('a');
+    a.textContent = 'Menu';
+    li.appendChild(a);
+    ul.appendChild(li);
+
+    li = document.createElement('li');
+    li.classList.add('contact-tab-event');
+    a = document.createElement('a');
+    a.textContent = 'Contact';
+    li.appendChild(a);
+    ul.appendChild(li);
 
     nav.appendChild(ul);
     header.appendChild(nav);

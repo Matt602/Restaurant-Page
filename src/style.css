@@ -37,7 +37,7 @@ ul {
   li {
     display: inline;
     padding: 20px 20px 0 20px;
-
+    cursor: pointer;
   }
 
   a {
