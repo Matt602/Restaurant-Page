@@ -17,7 +17,7 @@ export default function home()
     div_review.classList.add('main-content-info');
 
     const p_review = document.createElement('p');
-    p_review.textContent = "This place has the best pizza I have ever eaten. It is so good I. I have visited many places and this place hands down has teh best pizza. It is really good. The sauce is fresh, the toppings are fresh, and the pizza is crispy";
+    p_review.textContent = "This place has the best pizza I have ever eaten. It is so good I. I have visited many places and this place hands down has the best pizza. It is really good. The sauce is fresh, the toppings are fresh, and the pizza is crispy";
     const p_critic = document.createElement('p');
     p_critic.classList.add('critic');
     p_critic.textContent = 'Random Critic';
