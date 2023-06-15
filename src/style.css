@@ -93,8 +93,14 @@ ul {
     text-align: center;
 }
 
-.header-main-content {
+.header-main-content, .menu-header {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
+}
+
+.menu-subsection {
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
 }
